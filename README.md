@@ -60,7 +60,7 @@ A estrutura de arquivos é baseada em classes Java separadas para cada entidade 
 ```
 seu-repositorio/
 ├── Main.java                 # Classe principal com o método main() e o menu de interação.
-├── Voo.java                  # Classe para representar um Voo (atributos: número, origem, destino, dataHora, totalAssentos).
+├── Voo.java                  # Classe para representar um Voo (gerencia informações do voo e a lista de assentos disponíveis com um ArrayList).
 ├── Passageiro.java           # Classe para representar um Passageiro (atributos: nome, documento, telefone, etc.).
 └── README.md                 # Este arquivo.
 ```
